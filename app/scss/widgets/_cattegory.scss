@@ -1,0 +1,36 @@
+.widget{
+  &-list-cat{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li{
+      position: relative;
+      height: 50px;
+      line-height: 50px;
+      background-color: $btn-bg-color;
+      margin-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 52px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      a{
+        text-decoration: none;
+      }
+      &::after{
+        content: attr(data-post-count);
+        position: absolute;
+        right: 10px;
+        top:50%;
+        margin-top: -12px;
+        display:inline-block;
+        height: 24px;
+        line-height: 24px;
+        padding-right: 11px;
+        padding-left: 11px;
+        background-color: white;
+        @include border-radius(10px);
+      }
+    }
+  }
+}

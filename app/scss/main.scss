@@ -1,0 +1,23 @@
+
+@import '../libs/bootstrap4/scss/bootstrap-grid.scss';
+@import '../libs/bootstrap4/scss/bootstrap-reboot.scss';
+@import '../libs/font-awesome/scss/brands.scss';
+@import '../libs/font-awesome/scss/fontawesome.scss';
+@import '../libs/font-awesome/scss/solid.scss';
+@import '../libs/font-awesome/scss/regular.scss';
+
+
+@import 'fonts';
+@import 'vars';
+@import 'mixins';
+@import 'base';
+@import 'header/header';
+@import 'pages/index';
+@import 'pages/post';
+@import 'footer/footer';
+@import 'blocks/meta-info';
+@import 'blocks/social-list';
+@import 'widgets/search';
+@import 'widgets/recent-posts';
+@import 'widgets/cattegory';
+@import 'pages/contact';

@@ -1,0 +1,37 @@
+.widget{
+  margin-bottom: 60px;
+  &-title{
+    color: $dark-gray-color;
+    font-size: 18px;
+    font-family: 'VPoppinsSemiBold',sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 38px;
+  }
+  &-search{
+    input{
+      color: $dark-gray-color;
+      font-size: 16px;
+      font-family: 'VPoppinsRegular',sans-serif;
+      margin-bottom: 0;
+      padding-left: 35px;
+      padding-right: 20px;
+    }
+    margin-top: 60px;
+  }
+}
+.search-field{
+  position: relative;
+  &:after{
+    content: '';
+    display:block;
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    left:10px;
+    height: 20px;
+    width: 20px;
+    background-image: url(../image/search.svg);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+  }
+}

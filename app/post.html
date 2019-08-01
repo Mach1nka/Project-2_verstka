@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="содержание">
+    <meta name="keywords" content="ключевые слова">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Article</title>
+    <script src="js/jquery.min.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col d-flex justify-content-between align-items-center">
+            <a href="/" class="logo">CINC.</a>
+            <nav class="main-nav">
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Portfolio</a>
+              <a href="#">Blog</a>
+              <a href="#">Contact</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="post-info">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-6">
+            <img src="image/post1.jpg" alt="img" class="post-image">
+          </div>
+          <div class="col-5 offset-1">
+            <div class="meta-info meta-info-post d-flex align-items-center">
+              <div class="meta-info-author d-flex align-items-center"><span class="meta-info-author-avat" style="background-image: url(/image/avatar.jpg);"></span>by Johnathan Doe</div>
+              <div class="meta-info-date"><i class="far fa-clock meta-info-icon"></i>3 weeks ago</div>
+            </div>
+            <h1 class="post-title">3 Things Everyone Knows About That You Don’t</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="container">
+      <div class="row">
+        <div class="col-8">
+          <div class="post-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam efficitur odio a finibus cursus. Nullam lacinia, risus a fermentum vulputate, orci enim cursus dolor, sed blandit neque eros quis lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. </p>
+            <p>Curabitur et mollis nisi, et dapibus ante. In vehicula venenatis molestie. Quisque tempor, ligula sed accumsan consectetur, risus erat rutrum libero, tempor porttitor mauris ex non leo. Suspendisse placerat, metus sit amet faucibus blandit, urna leo laoreet tortor, non porta lectus risus ac tellus. In vel metus euismod, lacinia dui id, bibendum dui. Donec dignissim ornare libero. In porttitor felis nec quam tincidunt pulvinar. Vestibulum vel metus id velit maximus pharetra eget vitae sem. Nunc iaculis eget massa at molestie.</p>
+            <p>Donec ex diam, hendrerit sit amet dapibus id, lobortis eu metus. Nulla facilisi. Duis ullamcorper, urna facilisis faucibus venenatis, sapien eros ultrices lorem, eget dictum massa velit vitae enim. Cras id consequat urna. Mauris in malesuada ex, non tempus lectus. Pellentesque id viverra ex, sed consectetur erat. In hac habitasse platea dictumst. Vivamus at nibh diam. Praesent vel dictum ante. Cras gravida sagittis aliquet. Aliquam metus dolor, sagittis vitae mollis in, imperdiet vel massa. In volutpat volutpat enim, sit amet commodo diam posuere ac.</p>
+          </div>
+          <div class="social-list social-list-post">
+              <span class="social-list-title">Share on:</span>
+              <a href="" class="social-list-item social-list-item-post"><i class="fab fa-facebook-f"></i></a>
+              <a href="" class="social-list-item social-list-item-post"><i class="fab fa-facebook-messenger"></i></a>
+              <a href="" class="social-list-item social-list-item-post"><i class="fab fa-twitter"></i></a>
+              <a href="" class="social-list-item social-list-item-post"><i class="fab fa-linkedin-in"></i></a>
+              <a href="" class="social-list-item social-list-item-post"><i class="fab fa-pinterest-p"></i></a>
+          </div>
+          <div class="post-nav d-flex justify-content-between">
+              <a href="/" class="post-nav-pred"><img src="/image/arrow.svg" class="post-nav-arrow-pred">Loneliness for miles.</a>
+              <a href="/" class="post-nav-next">Crumble Clothes<img src="/image/arrow.svg" class="post-nav-arrow-next"></a>
+          </div>
+        <div class="comment-list">
+          <span class="comment-list-title decor-line">1 Comment</span>
+          <div class="comment-list-item d-flex">
+            <img src="/image/avatar.jpg" alt="" class="comment-list-avatar">
+            <div class="comment-list-content">
+              <div class="comment-list-info">
+                <span class="comment-list-info-name">John Doe</span>
+                <span class="comment-list-info-time">2 hourse ago | <a href="#">reply</a></span>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mi sem, interdum id interdum sit amet, pellentesque non quam. Mauris metus augue, facilisis a vehicula id, rutrum vitae velit. Aliquam et odio et enim condimentum pellentesque. Vestibulum sollicitudin ex ligula, sed posuere risus sagittis sit amet. Maecenas ultrices nec nisl a placerat.</p>
+            </div>
+          </div>
+        </div>
+          <div class="comment-form">
+            <span class="comment-form-title decor-line">Share your thoughts</span>
+              <form  action="/">
+                <div class="row">
+                  <div class="col-6"><input type="text"  placeholder="Name"></div>
+                  <div class="col-6"><input type="text" placeholder="Email"></div>
+                </div>
+                <div class="row">
+                  <div class="col"><textarea placeholder="Let us know what you have to say..." name="name" rows="8" cols="80"></textarea></div>
+                </div>
+                <div class='row'>
+                  <div class="col d-flex justify-content-end">
+                    <button>Submit comment</button>
+                  </div>
+                </div>
+              </form>
+          </div>
+       </div>
+      <div class="col-3 offset-1">
+        <div class="widget widget-search">
+          <form action="/">
+            <div class="search-field">
+              <input type="text" placeholder="search on blog...">
+            </div>
+          </form>
+        </div>
+        <div class="widget widget-recent-post">
+          <h2 class="widget-title decor-line">Recent posts</h2>
+          <!--1 widget-->
+            <div class="widget-recent-post">
+              <img class="widget-recent-post-img" src="/image/post1.jpg" alt="">
+              <div class="widget-recent-post-content">
+                <a href="#" class="widget-recent-post-title">Check Out New Trendy Smart Phones in Next</a>
+                <div class="widget-recent-post-info">
+                  <span class="widget-recent-post-author">John Doe</span>
+                  <span class="widget-recent-post-time">32 minutes ago</span>
+                </div>
+              </div>
+            </div>
+            <!--2 widget-->
+            <div class="widget-recent-post">
+              <img class="widget-recent-post-img" src="/image/post2.jpg" alt="">
+              <div class="widget-recent-post-content">
+                <a href="#" class="widget-recent-post-title">Check Out The Most Awesome VR Headset</a>
+                <div class="widget-recent-post-info">
+                  <span class="widget-recent-post-author">John Doe</span>
+                  <span class="widget-recent-post-time">32 minutes ago</span>
+                </div>
+              </div>
+            </div>
+            <!--3 widget-->
+            <div class="widget-recent-post">
+              <img class="widget-recent-post-img" src="/image/post3.jpg" alt="">
+              <div class="widget-recent-post-content">
+                <a href="#" class="widget-recent-post-title">Or It’s Now The End of Smartphones?</a>
+                <div class="widget-recent-post-info">
+                  <span class="widget-recent-post-author">John Doe</span>
+                  <span class="widget-recent-post-time">32 minutes ago</span>
+                </div>
+              </div>
+            </div>
+            <!--4 widget-->
+            <div class="widget-recent-post">
+              <img class="widget-recent-post-img" src="/image/post4.jpg" alt="">
+              <div class="widget-recent-post-content">
+                <a href="#" class="widget-recent-post-title">Is It Safe to Have These Listening to Us?</a>
+                <div class="widget-recent-post-info">
+                  <span class="widget-recent-post-author">John Doe</span>
+                  <span class="widget-recent-post-time">32 minutes ago</span>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="widget widget-cat">
+          <h2 class="widget-title decor-line">categories</h2>
+          <ul class="widget-list-cat">
+            <li data-post-count='10'><a href="#">Fashion</a></li>
+            <li data-post-count='10'><a href="#">Food & Drinks</a></li>
+            <li data-post-count='10'><a href="#">Photography</a></li>
+            <li data-post-count='10'><a href="#">Technology</a></li>
+            <li data-post-count='10'><a href="#">Trave</a></li>
+          </ul>
+        </div>
+        <div class="widget widget-recent-post">
+          <h2 class="widget-title decor-line">Popular Posts</h2>
+          <!--1 widget-->
+            <div class="widget-recent-post">
+              <img class="widget-recent-post-img" src="/image/post1.jpg" alt="">
+              <div class="widget-recent-post-content">
+                <a href="#" class="widget-recent-post-title">Check Out New Trendy Smart Phones in Next</a>
+                <div class="widget-recent-post-info">
+                  <span class="widget-recent-post-author">John Doe</span>
+                  <span class="widget-recent-post-time">32 minutes ago</span>
+                </div>
+              </div>
+            </div>
+            <!--2 widget-->
+            <div class="widget-recent-post">
+              <img class="widget-recent-post-img" src="/image/post2.jpg" alt="">
+              <div class="widget-recent-post-content">
+                <a href="#" class="widget-recent-post-title">Check Out The Most Awesome VR Headset</a>
+                <div class="widget-recent-post-info">
+                  <span class="widget-recent-post-author">John Doe</span>
+                  <span class="widget-recent-post-time">32 minutes ago</span>
+                </div>
+              </div>
+            </div>
+            <!--3 widget-->
+            <div class="widget-recent-post">
+              <img class="widget-recent-post-img" src="/image/post3.jpg" alt="">
+              <div class="widget-recent-post-content">
+                <a href="#" class="widget-recent-post-title">Or It’s Now The End of Smartphones?</a>
+                <div class="widget-recent-post-info">
+                  <span class="widget-recent-post-author">John Doe</span>
+                  <span class="widget-recent-post-time">32 minutes ago</span>
+                </div>
+              </div>
+            </div>
+            <!--4 widget-->
+            <div class="widget-recent-post">
+              <img class="widget-recent-post-img" src="/image/post4.jpg" alt="">
+              <div class="widget-recent-post-content">
+                <a href="#" class="widget-recent-post-title">Is It Safe to Have These Listening to Us?</a>
+                <div class="widget-recent-post-info">
+                  <span class="widget-recent-post-author">John Doe</span>
+                  <span class="widget-recent-post-time">32 minutes ago</span>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <h3 class="footer_title">About.</h3>
+              <div class="footer_text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nulla urna, aliquam et magna vitae, tempus fringilla ante.</p>
+              </div>
+              <div class="social-list">
+                <a href="" class="social-list-item"><i class="fab fa-facebook-f"></i></a>
+                <a href="" class="social-list-item"><i class="fab fa-facebook-messenger"></i></a>
+                <a href="" class="social-list-item"><i class="fab fa-twitter"></i></a>
+                <a href="" class="social-list-item"><i class="fab fa-linkedin-in"></i></a>
+                <a href="" class="social-list-item"><i class="fab fa-pinterest-p"></i></a>
+              </div>
+            </div>
+            <div class="col-3 offset-1">
+              <h3 class="footer_title">Useful Links</h3>
+              <ul class="footer-nav">
+                <li class="footer-nav-item"><a href="#">Solutions</a></li>
+                <li class="footer-nav-item"><a href="#">Our Team</a></li>
+                <li class="footer-nav-item"><a href="#">History</a></li>
+                <li class="footer-nav-item"><a href="#">Mission</a></li>
+                <li class="footer-nav-item"><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="col-3 offset-1">
+              <h3 class="footer_title">Main Office</h3>
+              <address class="footer_address">
+                306 Hardward Street, Blackwood,<br>New Jersey, NJ 08012
+              </address>
+              <div class="footer_tels">
+                <a href="tel:(+1) 856-227-9838" class="footer_tels-item">(+1) 856-227-9838</a><br>
+                <a href="tel:(+1) 201-805-1903" class="footer_tels-item">(+1) 201-805-1903</a>
+              </div>
+              <div class="footer-email">
+                <a href="mailto:info@crumble.al">info@crumble.al</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <p class="footer-bottom-text"><b>Copyright © 2019 Cinc Theme. All rights reserved.</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/libs.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

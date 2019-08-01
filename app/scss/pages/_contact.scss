@@ -1,0 +1,77 @@
+main{
+  margin-bottom: 100px;
+}
+.contact-form-write{
+  padding: 55px;
+  background-color: #f5f6f6;
+}
+.contact-field-write{
+  position: relative;
+  input,textarea{
+    background-color: #fff;
+    color: $black-color;
+  }
+  input{
+    height: 40px;
+  }
+  textarea{
+    height: 135px;
+  }
+}
+.contact{
+  &-title{
+    color: $black-color;
+    font-size: 36px;
+    font-family: 'VPoppinsBold',sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+  &-content{
+    margin-bottom: 40px;
+  }
+  &-info-title{
+    color: $dark-gray-color;
+    font-size: 16px;
+    font-family: 'VPoppinsSemiBold',sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  &-mail{
+    //margin-bottom: 45px;
+    a{
+      color:$light-gray-color;
+      &:hover{
+        color:$main-color;
+      }
+    }
+  }
+  &-item-circle{
+    float: left;
+    height: 55px;
+    width: 55px;
+    @include border-radius(50%);
+    text-align: center;
+    line-height: 55px;
+    font-size: 20px;
+    background-color: #f5f6f6;
+    color:$main-color;
+    margin-bottom: 100px;
+    margin-right: 30px;
+  }
+  &-item{
+    overflow: hidden;
+  }
+}
+.field-error{
+  position: absolute;
+  top:0;
+  right: 0;
+  color: red;
+  font-size: 14px;
+  font-family: "VPoppinsLight",sans-serif;
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+}
+.error .field-error{
+  opacity: 1;
+}

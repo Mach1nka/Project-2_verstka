@@ -1,0 +1,43 @@
+.header{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.logo{
+  color: $dark-gray-color;
+  text-transform: uppercase;
+  font-size: 48px;
+  font-family: 'VPoppinsExtraLight',sans-serif;
+    &:hover{
+      text-decoration: none;
+    }
+}
+
+.main-nav{
+  a{
+    font-family: 'VPoppinsRegular',sans-serif;
+    margin-right: 32px;
+    display: inline-block;
+    position: relative;
+      &{
+        text-decoration: none;
+      }
+      &:last-child{
+        margin-right: 0px;
+      }
+      &::after{
+        content: "";
+        display: none;
+        width: 5px;
+        height: 5px;
+        background-color: $main-color;
+        @include border-radius (50%);
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+      }
+      &:hover::after{
+        display: inline-block;
+      }
+  }
+}

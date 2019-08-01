@@ -1,0 +1,81 @@
+body{
+  font-size: 16px;
+  font-family: 'VPoppinsLight', sans-serif;
+}
+
+p{
+  color: $light-gray-color;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'VPoppinsBold', sans-serif;
+  color: $header-color;
+}
+
+a{
+  color: $black-color;
+  text-decoration: none;
+    &:hover{
+      color: $main-color;
+    }
+}
+img{
+  max-width: 100%;
+}
+.btn,button,input[type="submit"]{
+  font-family: 'VPoppinsSemiBold', sans-serif;
+  color: $header-color;
+  text-transform:uppercase;
+  border:0px;
+  background-color: $btn-bg-color;
+  line-height: 44px;
+  @include border-radius (2px);
+  height: 52px;
+  padding-left: 44px;
+  padding-right: 44px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  &:hover{
+    color:white;
+    background-color: $black-color;
+  }
+}
+input,textarea{
+  background-color: #f9f9f9;
+  border: 0px;
+  font-size: 16px;
+  color:#969696;
+  max-width: 100%;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 30px;
+}
+input{
+  height: 50px;
+}
+textarea{
+  height: 260px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.page-title{
+  font-size: 36px;
+  font-family: 'VPoppinsExtraBold',sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 44px;
+}
+.page-info{
+  margin-bottom: 84px;
+}
+.decor-line{
+  &:after{
+    content:'';
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: $main-color;
+  }
+}

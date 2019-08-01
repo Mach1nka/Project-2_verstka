@@ -1,0 +1,84 @@
+.post-title{
+  font-size: 48px;
+  font-family: 'VPoppinsExtraBold',sans-serif;
+  line-height: 1.25;
+  color: $black-color;
+  margin-top: 40px;
+}
+.post-content{
+  margin-top: 60px;
+}
+.post-content p{
+  margin-bottom: 1.5rem;
+}
+.post-nav-arrow-pred{
+  margin-right: 15px;
+  padding-bottom: 3px;
+}
+.post-nav-arrow-next{
+  transform: rotate(180deg);
+  margin-left: 15px;
+  padding-top: 3px;
+}
+.post-nav{
+  margin-bottom: 110px;
+  &-next,&-next{
+    color:$post-nav-color;
+  }
+  &-arrow-pred{
+    margin-right: 15px;
+    padding-bottom: 3px;
+  }
+  &-arrow-next{
+    transform: rotate(180deg);
+    margin-left: 15px;
+    padding-top: 3px;
+  }
+}
+.comment-list{
+  margin-bottom: 79px;
+  &-info{
+    padding-bottom: 20px;
+  }
+  &-title{
+    font-size: 18px;
+    font-family: 'VPoppinsSemiBold',sans-serif;
+    color: $dark-gray-color;
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+  &-avatar{
+    height:60px ;
+    width:60px;
+    @include border-radius (50%);
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  &-info-name{
+    font-size: 18px;
+    font-family: 'VPoppinsSemiBold',sans-serif;
+    color:$black-color;
+    padding-right: 10px;
+  }
+  &-info-time{
+    font-size: 14px;
+    font-family: 'VPoppinsRegular',sans-serif;
+    color:#bdbdbd;
+    a{
+      color:#bdbdbd;
+      &:hover{
+        color: $main-color;
+        text-decoration: none;
+      }
+    }
+  }
+}
+.comment-form{
+  &-title{
+    color:$dark-gray-color;
+    font-size: 18px;
+    font-family: 'VPoppinsSemiBold',sans-serif;
+    display: inline-block;
+    margin-bottom: 55px;
+  }
+}
